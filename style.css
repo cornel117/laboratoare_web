@@ -1,0 +1,62 @@
+body {
+  background-color: bisque;
+}
+header {
+  margin: 0;
+  padding: 0;
+  height: 100px;
+  background-color: grey;
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+.col {
+  display: flex;
+  flex-direction: row;
+}
+.col1,
+.col2,
+.col3 {
+  width: 33%;
+  margin: 100px;
+  border: 10px solid transparent;
+}
+.radio_col1,
+.radio_col2,
+.radio_col3 {
+  margin: 50px;
+  padding: 20px;
+  border: 3px solid black;
+  font-size: 30px;
+}
+
+img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.img_col1,
+.img_col2,
+.img_col3 {
+  width: 550px;
+  height: 350px;
+  background-color: gray;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+#btn {
+  text-decoration: none;
+  text-align: center;
+  padding: 20px 30px;
+  font-size: 50px;
+  margin: 20px;
+  background: crimson;
+  color: #fff;
+}
+.button {
+  text-align: center;
+}
